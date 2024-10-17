@@ -26,8 +26,7 @@ body {
 .titulo {
     text-align: center;
     padding: 40px 0;
-    color: var(--primary);
-    font-family: "Josefin Sans", sans-serif;
+    color: #000000;
     font-style: normal;
     font-size: 3rem;
 }
@@ -194,6 +193,13 @@ body {
     font-size: 1.8rem;
     margin-right: 20px;
     color: white; /*color de los iconos*/
+    transition: all 0.3s ease;
+}
+
+.social-i {
+    font-size: .8rem;
+    margin-right: 20px;
+    color: rgb(0, 0, 0); /*color de los iconos*/
     transition: all 0.3s ease;
 }
 
